@@ -1,0 +1,36 @@
+
+/* 
+Fixes the margin with the profile picture offset up
+*/
+@media (min-width: 769px) {	
+	#pagename {
+		left:240px !important;
+	}
+}
+
+/**
+ Profile Picture Stuff
+ */
+#sidebar .profile-info-small {
+	display:none !important;
+}
+#sidebar .profile-info-big {
+	padding-left: 18px;
+	font-size: 14px;
+}
+
+@media (min-width: 769px) {
+	#sidebar .sidebar-profile-picture {
+		margin-top:-50px;
+	}
+}
+
+@media (max-width: 769px) and (min-width: 481px) {
+	#sidebar .profile-info-big {
+		display:none;
+	}
+	#sidebar .profile-info-small {
+		display:block !important;
+		margin-left:-2px;
+	}
+}

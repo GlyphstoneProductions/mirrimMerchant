@@ -1,0 +1,68 @@
+/* 
+    Document   : text-color-fix
+    Created on : Mar 25, 2014, 2:53:17 PM
+    Author     : Lea
+    Description:
+        Just some color adjustments.  
+		Fixes .text- colors having a different color on hover, 
+		Adds callouts from the bootstrap documentation (not tested in the light theme)
+*/
+
+/* 
+ * This should match the accent color in the theme builder
+.text-primary{color:#FB9613}
+.text-primary:hover{color:#FB9613}
+.progress-bar-primary {background-color:#FB9613}
+.label-primary {background-color:#FB9613}
+*/
+.text-warning{color:#f0ad4e}
+.text-warning:hover{color:#f0ad4e}
+.text-danger{color:#d9534f}
+.text-danger:hover{color:#d9534f}
+.text-success{color:#5cb85c}
+.text-success:hover{color:#5cb85c}
+.text-info{color:#5bc0de}
+.text-info:hover{color:#5bc0de}
+
+
+.callout {
+	margin: 20px 0;
+	padding: 20px;
+	border-left: 3px solid #eee;
+}
+
+.callout-primary {
+	background-color: rgba(251, 150, 19, 0.2);
+	border-color: rgb(251, 150, 19);
+}
+.callout-primary h4 {
+	color: rgb(251, 150, 19);
+}
+.callout-warning {
+	background-color: rgba(240, 173, 78, 0.2);
+	border-color: rgb(240, 173, 78);
+}
+.callout-warning h4 {
+	color: rgb(240, 173, 78);
+}
+.callout-danger {
+	background-color: rgba(217, 83, 79, 0.2);
+	border-color: rgb(217, 83, 79);
+}
+.callout-danger h4 {
+	border-color: rgb(217, 83, 79);
+}
+.callout-success {
+	background-color: rgba(92, 184, 92, 0.2);
+	border-color: rgb(92, 184, 92);
+}
+.callout-success h4 {
+	color: rgb(92, 184, 92);
+}
+.callout-info {
+	background-color: rgba(91, 192, 222, 0.2);
+	border-color: rgb(91, 192, 222);
+}
+.callout-info h4 {
+	color: rgb(91, 192, 222);
+}
